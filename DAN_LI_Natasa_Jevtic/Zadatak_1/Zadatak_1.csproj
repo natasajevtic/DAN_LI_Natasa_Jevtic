@@ -66,6 +66,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Helper\Encryption.cs" />
+    <Compile Include="Models\Doctors.cs" />
+    <Compile Include="Models\Patients.cs" />
+    <Compile Include="Models\Users.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
